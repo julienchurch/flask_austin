@@ -16,6 +16,7 @@ None of this will work without these! If you need any guidance on how to install
 
 Because of the way `pip` hardcodes paths, **you're going to have to create a virtualenv and install the dependencies on your system** via the following commands:
 
+    cd /path/to/cloned/repo
     virtualenv venv
     . venv/bin/activate
     pip install -r requirements.txt
