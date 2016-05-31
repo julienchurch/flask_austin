@@ -25,3 +25,13 @@ This will give you access to all your necessary Python packages. If something fa
 ##Step 2
 
 Just mess around with the login and logout functionality and gimme a call when you have a question. :P
+
+The only two available credentials are for you:
+
+* username: austin@herman.com
+* password: crazyglue
+
+and me:
+
+* username: chase@ries.com
+* password: radish
