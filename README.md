@@ -22,4 +22,6 @@ Because of the way `pip` hardcodes paths, **you're going to have to create a vir
 
 This will give you access to all your necessary Python packages. If something fails, there's probably a dependency missing somewhere; read through the error message and `apt-get install` whatever it's whining about. Failing that, gimme a call.
 
+##Step 2
 
+Just mess around with the login and logout functionality and gimme a call when you have a question. :P
