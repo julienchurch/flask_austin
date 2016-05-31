@@ -1,0 +1,10 @@
+{% extends 'skeleton.html' %}
+{% block content %}
+  <form method="POST" action="/login">
+    <label for="email">Email:</label>
+    <input id="email" name="email" type="email">
+    <label for="password">Password:</label>
+    <input id="password" name="password" type="password">
+    <button type="submit">Submit</button>
+  </form>
+{% endblock %}

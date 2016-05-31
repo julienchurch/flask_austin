@@ -1,0 +1,1 @@
+Use the  `assets` folder for preprocessable files like Sass or ES6 JavaScript. A tool like Compass or Gulp can do the heavy lifting of preprocessing the files, organizing them, and sending them to your `static/` directory. 

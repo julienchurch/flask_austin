@@ -1,0 +1,19 @@
+{% block header %}
+<nav>
+  <ul>
+    {% if current_user.is_authenticated %}
+    <li>
+      <a href="/logout">Log out</a>
+    </li>
+    {% endif %}
+    <li>
+      <a href="/">Home</a>
+    </li>
+    {% if not current_user.is_authenticated %}
+    <li>
+      <a href="/login">Log in</a>
+    </li>
+    {% endif %}
+  </ul>
+</nav>
+{% endblock %}
