@@ -1,6 +1,6 @@
 #Hi, Austin.
 
-I'm slightly drunk and this is a basic Flask app. If you're using a freshly-install Ubuntu 14.04.
+I'm slightly drunk and this is a basic Flask app. I'm using a freshly-installed Ubuntu 14.04, so there should be no discrepancies between our systems. 
 
 This assumes you have the following installed before moving forward:
 
@@ -10,5 +10,5 @@ This assumes you have the following installed before moving forward:
 * PostgreSQL
 *libpq-dev
 
-None of this will work without these.
+None of this will work without these! If you need any guidance on how to install something or its dependencies, just gimme a shout.
 
