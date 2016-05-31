@@ -1,11 +1,9 @@
 import config
 from flask                import Flask, g, render_template
-from flask.ext.sqlalchemy import SQLAlchemy
 from flask.ext.login      import LoginManager, current_user
 
 app = Flask(__name__.split('.')[0])
 app.config.from_object('config')
-db = SQLAlchemy(app)
 login_manager = LoginManager()
 login_manager.init_app(app)
 
