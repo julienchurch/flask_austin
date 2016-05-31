@@ -1,6 +1,6 @@
 import config
-from flask                import Flask, g, render_template
-from flask.ext.login      import LoginManager, current_user
+from flask       import Flask, g, render_template
+from flask_login import LoginManager, current_user
 
 app = Flask(__name__.split('.')[0])
 app.config.from_object('config')
