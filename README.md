@@ -7,8 +7,6 @@ This assumes you have the following installed before moving forward:
 * Python 3.X
 * pip
 * virtualenv
-* PostgreSQL
-* libpq-dev
 * python3-dev
 
 None of this will work without these! If you need any guidance on how to install something or its dependencies, just gimme a shout.

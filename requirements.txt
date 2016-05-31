@@ -1,6 +1,3 @@
 flask
-sqlalchemy
-flask-sqlalchemy
 passlib
-psycopg2
 flask-login
