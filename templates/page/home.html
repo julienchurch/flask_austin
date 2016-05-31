@@ -1,11 +1,11 @@
 {% extends 'skeleton.html' %}
 {% block content %}
-This is the home page
+<h1>Home page</h1>
 <br>
 {% if current_user.is_authenticated %}
-<b>You're logged in and your email is: {{ current_user.email }}</b>
+You're logged in and your email is: {{ current_user.email }}
 {% else %}
-<b>You are not logged in.</b>
+You are not logged in.
 {% endif %}
 
 {% endblock %}
