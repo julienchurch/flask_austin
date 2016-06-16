@@ -8,6 +8,7 @@ class Home(MethodView):
     return render_template('page/home.html',title=title)
 
 class SecretPage(MethodView):
+
   @login_required
   def get(self):
     return render_template('page/secret_page.html')
