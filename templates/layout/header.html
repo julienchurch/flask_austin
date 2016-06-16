@@ -2,12 +2,12 @@
 <nav>
   <ul>
     {% if current_user.is_authenticated %}
-    <li><a href="/logout">Log out</a></li>
-    <li><a href="/secret_page">Secret Page</a></li>
+    <li><a href="{{ url_for('logout') }}">Log out</a></li>
+    <li><a href="{{ url_for('secret_page') }}">Secret Page</a></li>
     {% endif %}
-    <li><a href="/">Home</a></li>
+    <li><a href="{{ url_for('home') }}">Home</a></li>
     {% if not current_user.is_authenticated %}
-    <li><a href="/login">Log in</a></li>
+    <li><a href="{{ url_for('login') }}">Log in</a></li>
     {% endif %}
   </ul>
 </nav>
